@@ -48,6 +48,7 @@ group :development do
   # Spring speeds up development by keeping your application running in the background. Read more: https://github.com/rails/spring
   gem 'spring'
   gem 'spring-watcher-listen', '~> 2.0.0'
+  gem 'rails-erd'
 end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
@@ -57,4 +58,4 @@ gem 'rails_admin'
 gem 'devise'
 gem 'cancancan', '~> 1.15.0'
 gem 'carrierwave'
-gem 'rails_admin_rollincode', '~> 1.0'
+gem 'rails_admin_rollincode', :git => 'https://github.com/arlymoura/rails_admin_theme.git'
